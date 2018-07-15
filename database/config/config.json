@@ -1,0 +1,17 @@
+{
+  "development": {
+    "use_env_variable": "DB_CONNECTION_STRING",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "list-quiz",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "DB_CONNECTION_STRING",
+    "dialect": "mysql"
+  }
+}
